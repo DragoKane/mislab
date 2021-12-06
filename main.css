@@ -1,0 +1,146 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    padding-top: 50px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    margin-right: 70px;
+}
+.nav-list li:last-child{
+    margin-right: 0;
+}
+ .nav-list a{
+     text-decoration: none;
+     font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+ }
+.wrapper-text{
+    font-family: Roboto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+color: #000000;
+}
+
+
+h1{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 59px;
+max-width: 475px;
+}
+header p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+}
+.btn{
+    background: #C4C4C4;
+    line-height: 100%;
+    font-size: 20px;
+    padding-top:15px ;
+    padding-left:57px ;
+    padding-bottom:15px ;
+    padding-right:57px ;
+    border: none;
+}
+.btn:hover{
+    background: grey;
+}
+.header2{
+    background: rgba(0, 0, 0, 0.24);
+}
+.container2{
+    max-width: 1170px;
+    height: 620px;
+    
+}
+.sooper-text{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sooper-text p{
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+max-width: 200px;
+}
+.container2{
+    display: flex;
+}
+.sooper-img{
+    margin-top: 80px;
+    margin-left: 245px;
+}
+.header3{
+    background: rgba(154, 0, 139, 0.62);
+}
+.container3{
+    max-width: 1170px;
+    height: 700px;
+}
+
+.header3 h1{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+color: rgba(0, 0, 0, 0.55);
+}
+
+
+
+
+
+
+
+
+
+
+
